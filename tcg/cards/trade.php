@@ -222,14 +222,3 @@ foreach ($images as $image) {
 }
 ?>
 </p>
-<h2>Duplicates</h2>
-<p>
-<?php
-$images = glob("duplicates/" . "*.gif");
-
-foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
-';
-}
-?>
-</p>
