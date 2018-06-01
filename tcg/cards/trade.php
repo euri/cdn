@@ -1,15 +1,37 @@
 <?php
     $directory = "trade/";
+    $cards = glob($directory."*.gif");
+    $display_cards = array();
+    
+    foreach ($cards as $card) {
+        $card = substr($card, strlen($directory));
+        $letter = $card[0];
+        //var_dump($letter);
+        //var_dump($card);
+
+        if(isset($display_cards[$letter])) {
+            var_dump("no display");
+            array_push($display_cards, 'tarrer');
+        }
+
+        //array_push($display_cards[$letter], $cards);
+
+    }
+    var_dump($display_cards);
+
 ?>
 <h1>Want to Trade</h1>
+<?php
+$images = glob($directory . "A*.gif");
+?>
 <h2>A</h2>
 <p>
 <?php
-$images = glob($directory . "A*.gif");
-
-foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
-';
+if($images != "") {
+    foreach ($images as $image) {
+        echo '    <img src="'.$image.'" alt="" border="0" />
+    ';
+    }
 }
 ?>
 </p>
