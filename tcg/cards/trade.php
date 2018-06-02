@@ -200,6 +200,28 @@ foreach ($images as $image) {
 }
 ?>
 </p>
+<h2>Q</h2>
+<p>
+<?php
+$images = glob($directory . "Q*.gif");
+
+foreach ($images as $image) {
+    echo '    <img src="'.$image.'" alt="" border="0" />
+';
+}
+?>
+</p>
+<h2>R</h2>
+<p>
+<?php
+$images = glob($directory . "R*.gif");
+
+foreach ($images as $image) {
+    echo '    <img src="'.$image.'" alt="" border="0" />
+';
+}
+?>
+</p>
 <h2>S</h2>
 <p>
 <?php
@@ -221,6 +243,17 @@ foreach ($images as $image) {
 ';
 }
 ?>
+<h2>U</h2>
+<p>
+<?php
+$images = glob($directory . "U*.gif");
+
+foreach ($images as $image) {
+    echo '    <img src="'.$image.'" alt="" border="0" />
+';
+}
+?>
+</p>
 </p>
 <h2>V</h2>
 <p>
