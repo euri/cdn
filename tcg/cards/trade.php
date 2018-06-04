@@ -29,7 +29,7 @@ $images = glob($directory . "A*.gif");
 <?php
 if($images != "") {
     foreach ($images as $image) {
-        echo '    <img src="'.$image.'" alt="" border="0" />
+        echo '    <img src="'.$image.'" alt="[x]" border="0" />
     ';
     }
 }
@@ -41,7 +41,7 @@ if($images != "") {
 $images = glob($directory . "B*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
@@ -52,7 +52,7 @@ foreach ($images as $image) {
 $images = glob($directory . "C*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
@@ -63,7 +63,7 @@ foreach ($images as $image) {
 $images = glob($directory . "D*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
@@ -74,7 +74,7 @@ foreach ($images as $image) {
 $images = glob($directory . "E*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
@@ -85,7 +85,7 @@ foreach ($images as $image) {
 $images = glob($directory . "F*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
@@ -96,7 +96,7 @@ foreach ($images as $image) {
 $images = glob($directory . "G*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
@@ -107,7 +107,7 @@ foreach ($images as $image) {
 $images = glob($directory . "H*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
@@ -118,7 +118,7 @@ foreach ($images as $image) {
 $images = glob($directory . "I*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
@@ -129,7 +129,7 @@ foreach ($images as $image) {
 $images = glob($directory . "J*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
@@ -140,7 +140,7 @@ foreach ($images as $image) {
 $images = glob($directory . "K*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
@@ -151,7 +151,7 @@ foreach ($images as $image) {
 $images = glob($directory . "L*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
@@ -162,7 +162,7 @@ foreach ($images as $image) {
 $images = glob($directory . "M*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
@@ -173,7 +173,7 @@ foreach ($images as $image) {
 $images = glob($directory . "N*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
@@ -184,7 +184,7 @@ foreach ($images as $image) {
 $images = glob($directory . "O*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
@@ -195,7 +195,7 @@ foreach ($images as $image) {
 $images = glob($directory . "P*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
@@ -206,7 +206,7 @@ foreach ($images as $image) {
 $images = glob($directory . "Q*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
@@ -217,7 +217,7 @@ foreach ($images as $image) {
 $images = glob($directory . "R*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
@@ -228,7 +228,7 @@ foreach ($images as $image) {
 $images = glob($directory . "S*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
@@ -239,21 +239,21 @@ foreach ($images as $image) {
 $images = glob($directory . "T*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
+</p>
 <h2>U</h2>
 <p>
 <?php
 $images = glob($directory . "U*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
-</p>
 </p>
 <h2>V</h2>
 <p>
@@ -261,7 +261,7 @@ foreach ($images as $image) {
 $images = glob($directory . "V*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
@@ -272,7 +272,7 @@ foreach ($images as $image) {
 $images = glob($directory . "W*.gif");
 
 foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="" border="0" />
+    echo '    <img src="'.$image.'" alt="[x]" border="0" />
 ';
 }
 ?>
