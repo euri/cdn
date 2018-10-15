@@ -200,28 +200,6 @@ foreach ($images as $image) {
 }
 ?>
 </p>
-<h2>Q</h2>
-<p>
-<?php
-$images = glob($directory . "[Qq]*.{jpg,gif,png}", GLOB_BRACE);
-
-foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="[x]" border="0" />
-';
-}
-?>
-</p>
-<h2>R</h2>
-<p>
-<?php
-$images = glob($directory . "[Rr]*.{jpg,gif,png}", GLOB_BRACE);
-
-foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="[x]" border="0" />
-';
-}
-?>
-</p>
 <h2>S</h2>
 <p>
 <?php
@@ -237,17 +215,6 @@ foreach ($images as $image) {
 <p>
 <?php
 $images = glob($directory . "[Tt]*.{jpg,gif,png}", GLOB_BRACE);
-
-foreach ($images as $image) {
-    echo '    <img src="'.$image.'" alt="[x]" border="0" />
-';
-}
-?>
-</p>
-<h2>U</h2>
-<p>
-<?php
-$images = glob($directory . "[Uu]*.{jpg,gif,png}", GLOB_BRACE);
 
 foreach ($images as $image) {
     echo '    <img src="'.$image.'" alt="[x]" border="0" />
