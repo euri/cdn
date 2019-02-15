@@ -4,7 +4,7 @@
 <h1>Wishcards</h1>
 <p>
 <?php
-$images = glob($directory . "*.{jpg,png,gif}", GLOB_BRACE);
+$images = glob($directory . "*.*", GLOB_BRACE);
 
 foreach ($images as $image) {
     echo '    <img src="'.$image.'" alt="" border="0" />
